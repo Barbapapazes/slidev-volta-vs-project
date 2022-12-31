@@ -5,25 +5,24 @@ layout: cover
 background: https://images.unsplash.com/photo-1487424439918-bc6b5bef0380?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1933&q=80
 ---
 
-# Volta, pour mieux gérer nos projets
+# Volta,<br />pour gérer nos projets
 
 ---
+layout: summary
+listStyle: none
 ---
-<!-- Need to use a summary layout -->
 
-# Sommaire
+- <carbon-task-view/> Sujet
+- <carbon-task-remove/> Problèmes
+- <carbon-task-approved/> Solutions
 
-- Quel est le sujet ?
-- Quelles sont nos problématiques ?
-- Quels sont nos outils à disposition ?
-- Des questions ?
-- Le Récap
 
 ---
 layout: section
+background: https://images.unsplash.com/photo-1612099452850-ed8efe7d58ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 ---
 
-# Quel est le sujet ?
+# <carbon-task-view/> Sujet
 
 ---
 layout: center
@@ -47,12 +46,14 @@ On centralise au sein d'un repository pour pouvoir ensuite centraliser au sein d
 
 ---
 layout: section
+right: true
+background: https://images.unsplash.com/photo-1517582082532-16a092d47074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80
 ---
 
-# Quelles sont nos problématiques ?
+# <carbon-task-remove/> Problèmes
 
 <!-- 
-Les problématiques sont multiples et liées les unes aux autres.
+Les problèmes sont multiples et liés les uns aux autres.
 -->
 
 ---
@@ -100,9 +101,10 @@ layout: center
 
 ---
 layout: section
+background: https://images.unsplash.com/photo-1548003411-73cb4c666bb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80
 ---
 
-# Quels sont nos outils à disposition ?
+# <carbon-task-approved/> Solutions
 
 ---
 layout: two-cols
