@@ -7,13 +7,13 @@ specifiers:
   '@slidev/cli': ^0.38.2
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
-  slidev-theme-aneo: ^0.0.3
+  slidev-theme-aneo: ^0.0.4
 
 dependencies:
   '@slidev/cli': 0.38.2_postcss@8.4.20
   '@slidev/theme-default': 0.21.2
   '@slidev/theme-seriph': 0.21.3
-  slidev-theme-aneo: 0.0.3
+  slidev-theme-aneo: 0.0.4
 
 devDependencies:
   '@iconify-json/ant-design': 1.1.4
@@ -3255,8 +3255,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /slidev-theme-aneo/0.0.3:
-    resolution: {integrity: sha512-EC5MLled4mQBoSTqgkZybxQnzx79Ywqv8fqW8PygGOnT8cW9HrBLjwoloYCgr3+SwkaaeKO19QrUCLezFEcGUg==}
+  /slidev-theme-aneo/0.0.4:
+    resolution: {integrity: sha512-8VTPBprTXDRdE00944fTWjoyCliSAj3gGuv35aez9A9Bqi0YH03MMpclLnDrCfVrvhJUegrtXzc7Zq0ucAFxyQ==}
     engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
     dependencies:
       '@slidev/types': 0.38.2
