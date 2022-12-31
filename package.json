@@ -10,7 +10,7 @@
     "@slidev/cli": "^0.38.2",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
-    "slidev-theme-aneo": "^0.0.3"
+    "slidev-theme-aneo": "^0.0.4"
   },
   "devDependencies": {
     "@iconify-json/ant-design": "^1.1.4",
