@@ -167,7 +167,7 @@ Le nouvel outil de GitHub pour gérer les projets
 
 <v-clicks>
 
-- Automatisation trop simple et trop complexe à la fois
+- Automatisation [trop simple](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations) et [trop complexe à la fois](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/automating-projects-using-actions)
 
 </v-clicks>
 
@@ -206,7 +206,7 @@ L'outil de NuxtLabs qui ré-imagine la gestion des issues
 
 - Centralise l'ensemble des issues au sein d'un unique outil
 - Permet de ramener les issues au sein de chacun des repositories
-- Automatisation puissante
+- [Automatisation puissante](https://volta.net/docs/issue/boards#automation)
 
 </v-clicks>
 
