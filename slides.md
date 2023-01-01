@@ -107,6 +107,28 @@ background: https://images.unsplash.com/photo-1548003411-73cb4c666bb9?ixlib=rb-4
 # <carbon-task-approved/> Solutions
 
 ---
+
+# Différents outils
+Mais il n'en restera qu'un
+
+- [Project](https://github.com/features/issues)
+- [ZenHub](https://www.zenhub.com/)
+- [Jira](https://www.atlassian.com/software/jira)
+- [Trello](https://trello.com/)
+- [Asana](https://asana.com/)
+- [Taiga](https://taiga.io/)
+- [YouTrack](https://www.jetbrains.com/youtrack/)
+- [Volta](https://volta.net/)
+
+<!--
+Il existe différents outils pour sortir du board classique. En voici une liste mais j'ai choisi de me concentrer sur 2 particulièrement.
+
+Globalement, je me suis penché sur Project et Volta parce que je suis persuadé qu'avoir des outils qui peuvent s'intégrer naturellement à nos workflows de développement est important pour faciliter l'intégration et l'utilisation de ce dernier.
+
+"Naturellement" signifie réutilisation des issues et PR GitHub, permettant au passage de faciliter l'open source, automatisation des boards et dans la continuité des la gestion par GitHub (comme un super set de GitHub).
+ -->
+
+---
 layout: two-cols
 ---
 <!-- Retravailler pour avoir un gap entre les 2 -->
@@ -145,7 +167,7 @@ Le nouvel outil de GitHub pour gérer les projets
 
 <v-clicks>
 
-- Automatisation trop simple et trop complexe à la fois
+- Automatisation [trop simple](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations) et [trop complexe à la fois](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/automating-projects-using-actions)
 
 </v-clicks>
 
@@ -184,7 +206,7 @@ L'outil de NuxtLabs qui ré-imagine la gestion des issues
 
 - Centralise l'ensemble des issues au sein d'un unique outil
 - Permet de ramener les issues au sein de chacun des repositories
-- Automatisation puissante
+- [Automatisation puissante](https://volta.net/docs/issue/boards#automation)
 
 </v-clicks>
 
