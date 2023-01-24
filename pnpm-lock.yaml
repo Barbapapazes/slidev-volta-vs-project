@@ -7,13 +7,13 @@ specifiers:
   '@slidev/cli': ^0.38.2
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
-  slidev-theme-aneo: ^0.0.5
+  slidev-theme-aneo: ^0.4.0
 
 dependencies:
   '@slidev/cli': 0.38.2_postcss@8.4.20
   '@slidev/theme-default': 0.21.2
   '@slidev/theme-seriph': 0.21.3
-  slidev-theme-aneo: 0.0.5
+  slidev-theme-aneo: 0.4.0
 
 devDependencies:
   '@iconify-json/ant-design': 1.1.4
@@ -3255,14 +3255,13 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /slidev-theme-aneo/0.0.5:
-    resolution: {integrity: sha512-bDhwJbUfos7MP9O/pIssy/p439yOHK3tW+jqujaH79T23MUbMLvkE1erf922zi2eOStc6LLqZ/XgyAdDzsCHxQ==}
+  /slidev-theme-aneo/0.4.0:
+    resolution: {integrity: sha512-UyG0otYwJ1GURHXIWdjx7tq3T0mO4t7ZKYlExbcf/nUW5sHaWINobWLdcte3uoX7QTe3svq1hBTLpMJo8Gvl2w==}
     engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
     dependencies:
       '@slidev/types': 0.38.2
       codemirror-theme-vars: 0.1.1
       prism-theme-vars: 0.2.4
-      theme-vitesse: 0.6.0
       zx: 7.1.1
     dev: false
 
@@ -3397,11 +3396,6 @@ packages:
 
   /theme-vitesse/0.1.14:
     resolution: {integrity: sha512-b5s+Zpfaw5+djoCJ9AEbcTbpiTlLsOvGM9oblDmmWRGWNqg9oXtEYO/uwubwx77novHBI6zNuwZRHKNlAIBo4A==}
-    engines: {vscode: ^1.43.0}
-    dev: false
-
-  /theme-vitesse/0.6.0:
-    resolution: {integrity: sha512-/XEZFGXLTK/AlWSe9t+NIXB1tP3yqdzugcSJJ2Fg0KYM1PcoL/zWs5AuaEcCFt1pfi/9Og++tzOdiU2aKf/+Xw==}
     engines: {vscode: ^1.43.0}
     dev: false
 
