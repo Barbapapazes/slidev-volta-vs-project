@@ -7,13 +7,13 @@ specifiers:
   '@slidev/cli': ^0.38.2
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
-  slidev-theme-aneo: ^0.0.5
+  slidev-theme-aneo: ^0.6.0
 
 dependencies:
   '@slidev/cli': 0.38.2_postcss@8.4.20
   '@slidev/theme-default': 0.21.2
   '@slidev/theme-seriph': 0.21.3
-  slidev-theme-aneo: 0.0.5
+  slidev-theme-aneo: 0.6.0
 
 devDependencies:
   '@iconify-json/ant-design': 1.1.4
@@ -625,7 +625,7 @@ packages:
       c12: 1.1.0
       consola: 2.15.3
       defu: 6.1.1
-      globby: 13.1.3
+      globby: 13.1.4
       hash-sum: 2.0.0
       ignore: 5.2.4
       jiti: 1.16.0
@@ -860,14 +860,26 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: false
 
+  /@slidev/types/0.40.16:
+    resolution: {integrity: sha512-gJ2kgbln/RoYct6n3umDLmyI6xqPQZgGa4n6sltsXiOfWASDMfI5hoWvhpKsio3Wegw4uvBdbQ8zO4rofIKcmQ==}
+    engines: {node: '>=14.0.0'}
+    dev: false
+
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: false
 
-  /@types/fs-extra/9.0.13:
-    resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
+  /@types/fs-extra/11.0.1:
+    resolution: {integrity: sha512-MxObHvNl4A69ofaTRU8DFqvgzzv8s9yRtaPPm5gud9HDNvpB3GPQFvNuTWAI59B9huVGV5jXYJwbCsmBsOGYWA==}
     dependencies:
-      '@types/node': 18.11.17
+      '@types/jsonfile': 6.1.1
+      '@types/node': 18.16.18
+    dev: false
+
+  /@types/jsonfile/6.1.1:
+    resolution: {integrity: sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==}
+    dependencies:
+      '@types/node': 18.16.18
     dev: false
 
   /@types/linkify-it/3.0.2:
@@ -889,8 +901,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: false
 
-  /@types/node/18.11.17:
-    resolution: {integrity: sha512-HJSUJmni4BeDHhfzn6nF0sVmd1SMezP7/4F0Lq+aXzmp2xm9O7WXrUtHW/CHlYVtZUbByEvWidHqRtcJXGF2Ng==}
+  /@types/node/18.16.18:
+    resolution: {integrity: sha512-/aNaQZD0+iSBAGnvvN2Cx92HqE5sZCPZtx2TsK+4nvV23fFe09jVDvpArXr2j9DnYlzuU9WuoykDDc6wqvpNcw==}
     dev: false
 
   /@types/ps-tree/1.1.2:
@@ -905,8 +917,8 @@ packages:
     resolution: {integrity: sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==}
     dev: false
 
-  /@types/which/2.0.1:
-    resolution: {integrity: sha512-Jjakcv8Roqtio6w1gr0D7y6twbhx6gGgFGF5BLwajPpnOIOxFkakFhCq+LmyyeAz7BX6ULrjBOxdKaCDy+4+dQ==}
+  /@types/which/3.0.0:
+    resolution: {integrity: sha512-ASCxdbsrwNfSMXALlC3Decif9rwDMu+80KGp5zI2RLRotfMsTv7fHL8W8VDp24wymzDyIFudhUeSCugrgRFfHQ==}
     dev: false
 
   /@unhead/dom/1.0.13:
@@ -2223,6 +2235,15 @@ packages:
       universalify: 2.0.0
     dev: false
 
+  /fs-extra/11.1.1:
+    resolution: {integrity: sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==}
+    engines: {node: '>=14.14'}
+    dependencies:
+      graceful-fs: 4.2.10
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+    dev: false
+
   /fs-minipass/2.1.0:
     resolution: {integrity: sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==}
     engines: {node: '>= 8'}
@@ -2241,6 +2262,11 @@ packages:
 
   /function-bind/1.1.1:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
+    dev: false
+
+  /fx/28.0.0:
+    resolution: {integrity: sha512-vKQDA9g868cZiW8ulgs2uN1yx1i7/nsS33jTMOxekk0Z03BJLffVcdW6AVD32fWb3E6RtmWWuBXBZOk8cLXFNQ==}
+    hasBin: true
     dev: false
 
   /gensync/1.0.0-beta.2:
@@ -2302,8 +2328,8 @@ packages:
     dev: false
     optional: true
 
-  /globby/13.1.3:
-    resolution: {integrity: sha512-8krCNHXvlCgHDpegPzleMq07yMYTO2sXKASmZmquEYWEmCx6J5UTRbp5RwMJkTJGtcQ44YpiUYUiN0b9mzy8Bw==}
+  /globby/13.1.4:
+    resolution: {integrity: sha512-iui/IiiW+QrJ1X1hKH5qwlMQyv34wJAYwH1vrf8b9kBA4sNiif3gKsMHa+BrdnOpEudWjpotfa7LrTzB1ERS/g==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       dir-glob: 3.0.1
@@ -2750,8 +2776,8 @@ packages:
       brace-expansion: 2.0.1
     dev: false
 
-  /minimist/1.2.7:
-    resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
+  /minimist/1.2.8:
+    resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
     dev: false
 
   /minipass/3.3.6:
@@ -2849,8 +2875,8 @@ packages:
     dev: false
     optional: true
 
-  /node-fetch/3.2.10:
-    resolution: {integrity: sha512-MhuzNwdURnZ1Cp4XTazr69K0BTizsBroX7Zx3UgDSVcZYKF/6p0CBe4EUb/hLqmzVhl0UpYfgRljQ4yxE+iCxA==}
+  /node-fetch/3.3.1:
+    resolution: {integrity: sha512-cRVc/kyto/7E5shrWca1Wsea4y6tL9iYJE5FBCius3JQfb/4P4I295PfhgbJQBLTx6lATE4z+wK0rPM4VS2uow==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       data-uri-to-buffer: 4.0.0
@@ -3255,15 +3281,14 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /slidev-theme-aneo/0.0.5:
-    resolution: {integrity: sha512-bDhwJbUfos7MP9O/pIssy/p439yOHK3tW+jqujaH79T23MUbMLvkE1erf922zi2eOStc6LLqZ/XgyAdDzsCHxQ==}
+  /slidev-theme-aneo/0.6.0:
+    resolution: {integrity: sha512-I7TtZ7CuZ/huh6DmX0JplRLED01vAaXUQL6pvMLwAtfrwwFaCosrEx8x3KSBV6hAMHw4HZbkwm5VaXUJUIpzsA==}
     engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
     dependencies:
-      '@slidev/types': 0.38.2
+      '@slidev/types': 0.40.16
       codemirror-theme-vars: 0.1.1
       prism-theme-vars: 0.2.4
-      theme-vitesse: 0.6.0
-      zx: 7.1.1
+      zx: 7.2.2
     dev: false
 
   /source-map-js/1.0.2:
@@ -3397,11 +3422,6 @@ packages:
 
   /theme-vitesse/0.1.14:
     resolution: {integrity: sha512-b5s+Zpfaw5+djoCJ9AEbcTbpiTlLsOvGM9oblDmmWRGWNqg9oXtEYO/uwubwx77novHBI6zNuwZRHKNlAIBo4A==}
-    engines: {vscode: ^1.43.0}
-    dev: false
-
-  /theme-vitesse/0.6.0:
-    resolution: {integrity: sha512-/XEZFGXLTK/AlWSe9t+NIXB1tP3yqdzugcSJJ2Fg0KYM1PcoL/zWs5AuaEcCFt1pfi/9Og++tzOdiU2aKf/+Xw==}
     engines: {vscode: ^1.43.0}
     dev: false
 
@@ -3641,7 +3661,7 @@ packages:
     dependencies:
       '@rollup/pluginutils': 5.0.2
       debug: 4.3.4
-      fs-extra: 11.1.0
+      fs-extra: 11.1.1
       kolorist: 1.6.0
       sirv: 2.0.2
       ufo: 1.0.1
@@ -3806,9 +3826,22 @@ packages:
     resolution: {integrity: sha512-kyDivFZ7ZM0BVOUteVbDFhlRt7Ah/CSPwJdi8hBpkK7QLumUqdLtVfm/PX/hkcnrvr0i77fO5+TjZ94Pe+C9iw==}
     dev: false
 
+  /webpod/0.0.2:
+    resolution: {integrity: sha512-cSwwQIeg8v4i3p4ajHhwgR7N6VyxAf+KYSSsY6Pd3aETE+xEU4vbitz7qQkB0I321xnhDdgtxuiSfk5r/FVtjg==}
+    hasBin: true
+    dev: false
+
   /which/2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
     engines: {node: '>= 8'}
+    hasBin: true
+    dependencies:
+      isexe: 2.0.0
+    dev: false
+
+  /which/3.0.1:
+    resolution: {integrity: sha512-XA1b62dzQzLfaEOSQFTCOd5KFf/1VSzZo7/7TUjnya6u0vGGKzU96UQBZTAThCb2j4/xjBAyii1OhRLJEivHvg==}
+    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     hasBin: true
     dependencies:
       isexe: 2.0.0
@@ -3844,8 +3877,8 @@ packages:
     dev: false
     optional: true
 
-  /yaml/2.2.0:
-    resolution: {integrity: sha512-auf7Gi6QwO7HW//GA9seGvTXVGWl1CM/ADWh1+RxtXr6XOxnT65ovDl9fTi4e0monEyJxCHqDpF6QnFDXmJE4g==}
+  /yaml/2.3.1:
+    resolution: {integrity: sha512-2eHWfjaoXgTBC2jNM1LRef62VQa0umtvRiDSk6HSzW7RvS5YtkabJrwYLLEKWBc8a5U2PTSCs+dJjUTJdlHsWQ==}
     engines: {node: '>= 14'}
     dev: false
 
@@ -3872,22 +3905,24 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /zx/7.1.1:
-    resolution: {integrity: sha512-5YlTO2AJ+Ku2YuZKSSSqnUKuagcM/f/j4LmHs15O84Ch80Z9gzR09ZK3gR7GV+rc8IFpz2H/XNFtFVmj31yrZA==}
+  /zx/7.2.2:
+    resolution: {integrity: sha512-50Gjicd6ijTt7Zcz5fNX+rHrmE0uVqC+X6lYKhf2Cu8wIxDpNIzXwTmzchNdW+JY3LFsRcU43B1lHE4HBMmKgQ==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     dependencies:
-      '@types/fs-extra': 9.0.13
+      '@types/fs-extra': 11.0.1
       '@types/minimist': 1.2.2
-      '@types/node': 18.11.17
+      '@types/node': 18.16.18
       '@types/ps-tree': 1.1.2
-      '@types/which': 2.0.1
+      '@types/which': 3.0.0
       chalk: 5.2.0
-      fs-extra: 10.1.0
-      globby: 13.1.3
-      minimist: 1.2.7
-      node-fetch: 3.2.10
+      fs-extra: 11.1.1
+      fx: 28.0.0
+      globby: 13.1.4
+      minimist: 1.2.8
+      node-fetch: 3.3.1
       ps-tree: 1.2.0
-      which: 2.0.2
-      yaml: 2.2.0
+      webpod: 0.0.2
+      which: 3.0.1
+      yaml: 2.3.1
     dev: false
